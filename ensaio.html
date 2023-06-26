@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Meu Portfólio</title>
-  <footer><a href="tela.html">Voltar</a></footer>
+  
   <style>
     body {
         color: aliceblue;
@@ -150,10 +150,38 @@ p{
       margin-top: 40px;
     }
   </style>
+  <style>
+    ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+    
+    ul.menu li {
+      float: left;
+    }
+    
+    ul.menu li a {
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.menu li a:hover {
+      background-color: #ddd;
+    }
+  </style>
 </head>
 <body>
   <h1>Meu Portfólio</h1>
-  
+  <ul class="menu">
+    <li><a href="tela.html">INICIO</a></li>
+   
+  </ul>
   <div class="gallery">
     <div class="gallery-item">
       <img src="gata1.jpeg" alt="Foto 1">
